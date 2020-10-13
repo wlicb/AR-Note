@@ -1,7 +1,8 @@
 # AR-Note
-C# and Shader Tutorials for the Unity Engine
+C# and Shader Tutorials for the Unity Engine - Basics
 
-Basics: 
+Game Objects and Scripts  
+
 1. Defining class:   
 _using Unity Engine_  
 _public class <identifier> : MonoBehavior { }_
@@ -31,3 +32,23 @@ _Transform <identifier1> = <value>, <identifire2> = <value>, ... ;_
  6. Omitting the type declaration:
  _var <identifer> = <value>;_  
   * Can be used when the data type is clearly mentioned in the statements.
+ 
+ Building a Graph
+ 
+ 1. Prefabs:
+ * Create an object and drag it into the project window to create a prefab.
+ * The prefab scene can be accessed by the "Open Prefab" button.
+ * Prefabs are handy ways to configure game objects and it is useful to change asset of all instances of the prefab in the same way by changing the prefab asset.
+ 
+ 2. Instantiating Prefabs:
+ _Instantiate(Prefab)_  
+ * This will result in an instance being added to current scene.
+ 
+ 3. Changing position:
+ _<Instance>.localPosition = Vector3.<vector>_  
+ * "localPosition" is similar to "localRotation".
+ * "Vector3" is a 3D vector to be input to "localPosition".
+ * Moving the object along x axis without changing other coordinates can be realized by "right".
+ 
+ 4. 
+ 
