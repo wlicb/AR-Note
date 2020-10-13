@@ -4,7 +4,7 @@ C# and Shader Tutorials for the Unity Engine - Basics
 Game Objects and Scripts  
 
 1. Defining class:   
-_using Unity Engine_  
+_using UnityEngine_  
 _public class Clock : MonoBehavior { }_
   * Do not need to restrict the access to the class so it is made "public". The default is "internal".  
   * "MonoBehavior" type should be used to inherite the data and functionality from Unity.  
